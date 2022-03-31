@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="47831" started-at="2022-01-31T22:02:30 IST" finished-at="2022-01-31T22:03:18 IST">
+    <groups>
+    </groups>
+    <test name="Sanity" duration-ms="42699" started-at="2022-01-31T22:02:30 IST" finished-at="2022-01-31T22:03:13 IST">
+      <class name="com.swaglab.script.Testclass">
+        <test-method status="PASS" signature="onSetup(java.lang.String)[pri:0, instance:com.swaglab.script.Testclass@3b94d659]" name="onSetup" is-config="true" duration-ms="41434" started-at="2022-01-31T22:02:30 IST" finished-at="2022-01-31T22:03:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.swaglab.script.Testclass@3b94d659]" name="verifyValidLogin" duration-ms="1200" started-at="2022-01-31T22:03:11 IST" finished-at="2022-01-31T22:03:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.swaglab.script.Testclass@3b94d659]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-01-31T22:03:13 IST" finished-at="2022-01-31T22:03:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=Testclass.verifyValidLogin()[pri:0, instance:com.swaglab.script.Testclass@3b94d659] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglab.script.Testclass -->
+    </test> <!-- Sanity -->
+    <test name="Regression" duration-ms="47831" started-at="2022-01-31T22:02:30 IST" finished-at="2022-01-31T22:03:18 IST">
+      <class name="com.swaglab.script.Testclass">
+        <test-method status="PASS" signature="onSetup(java.lang.String)[pri:0, instance:com.swaglab.script.Testclass@150c158]" name="onSetup" is-config="true" duration-ms="47401" started-at="2022-01-31T22:02:30 IST" finished-at="2022-01-31T22:03:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method status="PASS" signature="verifyValidLogin()[pri:0, instance:com.swaglab.script.Testclass@150c158]" name="verifyValidLogin" duration-ms="423" started-at="2022-01-31T22:03:17 IST" finished-at="2022-01-31T22:03:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.swaglab.script.Testclass@150c158]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-01-31T22:03:18 IST" finished-at="2022-01-31T22:03:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=Testclass.verifyValidLogin()[pri:0, instance:com.swaglab.script.Testclass@150c158] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swaglab.script.Testclass -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
